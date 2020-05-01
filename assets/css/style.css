@@ -1,0 +1,160 @@
+:root {
+    --main-bg-grey: #222222;
+    --main-pink: #E31B6D;
+    --main-white: #f8f8f8;
+    --main-blue: #04C2C9;
+}
+
+/* global css */
+* {
+    box-sizing: border-box;
+    transition: all ease-in-out 200ms;
+}
+
+body,html {
+    text-align: center;
+    height: 100%;
+    color: var(--main-blue);
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    background-color: var(--main-bg-grey);
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* index/register page*/
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.8em;
+    width: 8em;
+    font-size: 1em;
+    height: auto;
+    background-color: var(--main-blue);
+    font-style: normal;
+    border: solid 2px rgb(54, 54, 54);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--main-pink);
+    cursor: pointer;
+}
+
+.input-field {
+    padding: 1em;
+    width: 12em;
+    font-size: 1em;
+    height: auto;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.form {
+    display: inline-block;
+    padding: 5em;
+    border: solid 1em var(--main-pink);     
+}
+/* display page */
+.display-container {
+    margin:auto;
+    position:relative;
+    overflow: hidden;
+}
+
+.add-task-button {
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5em;
+    min-width: 70vw;
+    font-size: 1em;
+    height: 100%;
+    background-color: var(--main-blue);
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0;
+}
+
+.add-task-button:hover,
+.add-task-button.button {
+    background-color: var(--main-pink);
+    cursor: pointer;
+}
+
+.display-table {
+    min-width: 70vw;
+    margin:auto;
+    position:relative;
+    overflow: hidden;
+}
+
+.display-table thead tr th {
+    font-size: 1em;
+    height: auto;
+    width: 10vw;
+    border: solid 0.2em var(--main-pink);
+}
+
+.display-table tbody tr th {
+    color: #ffffff;
+    height: auto;
+    width: 10vw;
+    border: solid 0.2em var(--main-pink);
+}
+
+.display-table-button {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5em;
+    width: 100%;
+    font-size: 1em;
+    height: 100%;
+    background-color: var(--main-bg-grey);
+    font-style: normal;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0;
+    /* border: var(--main-bg-grey); */
+    border: none;
+    text-decoration: none;
+    font-weight: 900;
+    
+}
+
+.display-table-button:hover,
+.display-table-b.button {
+    background-color: var(--main-pink);
+    cursor: pointer;
+}
+
+/* edit page */
+.edit-container {
+    margin:auto;
+    position:relative;
+    overflow: hidden;
+    min-width: 70vw;
+    height: auto;
+    border: solid 1em var(--main-pink);
+}
