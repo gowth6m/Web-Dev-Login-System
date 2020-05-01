@@ -41,7 +41,7 @@
                 <div class="small-container">
                     <div class="date-container">
                         <h2>Due Date</h2>
-                        <input class="edit-date" type="date" name="edit-date" value="<?php echo $current_task['dueDate']?>">
+                        <input class="edit-date" type="date" name="edit-date" value="<?php echo $current_task['dueDate']?>" required/>
                     </div>
                     <div class="state-container">
                         <h2>State</h2>

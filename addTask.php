@@ -35,14 +35,14 @@
         
             <form action="" method="post">
                 <h2>Task name</h2>
-                <input type="text" class="edit-name" name="add-name" placeholder="Task name">
+                <input type="text" class="edit-name" name="add-name" placeholder="Task name" required/>
                 <h2>Description</h2>
                 <textarea name="add-desc" type="text" class="edit-desc" placeholder=""></textarea>
                 <br>
                 <div class="small-container">
                     <div class="date-container">
                         <h2>Due Date</h2>
-                        <input class="edit-date" type="date" name="add-date">
+                        <input class="edit-date" type="date" name="add-date" required/>
                     </div>
                     <div class="state-container">
                         <h2>State</h2>

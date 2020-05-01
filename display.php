@@ -26,7 +26,7 @@
             <table class="display-table">
                 <thead>
                     <tr>
-                        <th>Select</th>
+                        <th>State</th>
                         <th>Name & Date</th>
                         <th>Edit</th>
                         <th>Delete</th>
@@ -60,7 +60,7 @@
                                     echo 'Done';
                                 }
                             ?></th>
-                            <th><?php echo $row['taskName']." (".$row['dueDate'].")";?></th>
+                            <th><?php echo $row['taskName']." (Date:".$row['dueDate'].")";?></th>
                             <th><button type="submit" name="display-edit" class="display-table-button" value="<?php echo $row['idTask']?>">Edit</button></th>
                             <th><button type="submit" name="display-del" class="display-table-button" value="<?php echo $row['idTask']?>">Delete</button></th>
                         </form>

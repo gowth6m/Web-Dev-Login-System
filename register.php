@@ -23,7 +23,12 @@
                             echo '<p>Password does not match!</p>';
                         } else if($_GET['error'] == "usertaken") {
                             echo '<p>Username already taken!</p>';
-                        }   
+                        }
+                    }
+                    if(isset($_GET['register'])){
+                        if($_GET['register'] == "sucess") {
+                            echo '<p>Successfully Registered!</p>';
+                        }
                     }
                 ?>
                 <input class="input-field" type="text" name="user-id" placeholder="Username">
