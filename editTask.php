@@ -51,7 +51,7 @@
                         </select>
                     </div>
                 </div>
-                <br>
+                <br><br>
                 <button type="submit" class="button" name="edit-ok">Ok</button>
                 <a class="button" href="./display.php" name="edit-cancel">Cancel</a>
             </form>

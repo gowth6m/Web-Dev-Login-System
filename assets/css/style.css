@@ -32,7 +32,13 @@ img {
     max-width: 100%;
     height: auto;
 }
+h1 {
+    margin: 0.6em;
+}
 
+h2 {
+    margin: 0.5em;
+}
 /* index/register page*/
 .button {
     font-family: 'Courier New', Courier, monospace;
@@ -70,6 +76,8 @@ img {
 }
 
 .form {
+    max-width: 100vw;
+    /* min-height: 70vh; */
     display: inline-block;
     padding: 5em;
     border: solid 1em var(--main-pink);     
@@ -136,7 +144,6 @@ img {
     color: #ffffff;
     display: inline-block;
     margin: 0;
-    /* border: var(--main-bg-grey); */
     border: none;
     text-decoration: none;
     font-weight: 900;
@@ -151,54 +158,51 @@ img {
 
 /* edit page */
 .edit-container {
+    text-align: center;
     margin:auto;
     position:relative;
     overflow: hidden;
     min-width: 60vw;
     height: auto;
     border: solid 1em var(--main-pink);
+    font-size: 1em;
 }
 
 .edit-desc {
     border: solid 0.2em var(--main-pink);
     min-width: 50vw;
     height: 30vh;
-    font-size: 1em;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 .small-container {
-    /* margin: 1em;
-    margin-left: 15vw;
-    margin-right: 15vw; */
     max-width: 100%;
     margin: auto;
     overflow: hidden;
-    /* margin: auto; */
     display: inline-block;
     align-content: center;
 }
 
 .edit-date {
     border: solid 0.2em var(--main-pink);
-    /* min-width: 50vw; */
     height: 2em;
     font-size: 1.5em;
     flex: 2;
-    width: 13em;
+    width: 12em;
 }
 
 .edit-state {
     border: solid 0.2em var(--main-pink);
-    /* min-width: 50vw; */
     width: 12em;
     height: 1.8em;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .edit-name {
+    text-align: center;
     border: solid 0.2em var(--main-pink);
-    /* min-width: 50vw; */
     height: 1.8em;
-    font-size: 1.3em;
+    font-size: 1.2em;
     width: 12em;
 }

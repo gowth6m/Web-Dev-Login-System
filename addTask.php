@@ -35,9 +35,9 @@
         
             <form action="" method="post">
                 <h2>Task name</h2>
-                <input type="text" class="edit-name" name="add-name" placeholder="Task name" required/>
+                <input type="text" class="edit-name" name="add-name" placeholder="Enter task here" required/>
                 <h2>Description</h2>
-                <textarea name="add-desc" type="text" class="edit-desc" placeholder=""></textarea>
+                <textarea name="add-desc" type="text" class="edit-desc" placeholder="Enter description here"></textarea>
                 <br>
                 <div class="small-container">
                     <div class="date-container">
@@ -52,7 +52,7 @@
                         </select>
                     </div>
                 </div>
-                <br>
+                <br><br>
                 <button type="submit" class="button" name="add-ok">Ok</button>
                 <a class="button" href="./display.php" name="edit-cancel">Cancel</a>
             </form>
