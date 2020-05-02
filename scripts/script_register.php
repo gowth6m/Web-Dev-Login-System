@@ -37,11 +37,11 @@ if(isset($_POST['register-submit'])) {
                     header("Location: ../register.php?error=sqlerror");
                     exit();
                 } else {
-                    $hashedPw = password_hash($password, PASSWORD_DEFAULT);
+                    // hash not available in php 5.4
+                    $hashedPw = $password;
                     mysqli_stmt_bind_param($stmt, "ss", $username, $hashedPw);
                     mysqli_stmt_execute($stmt);
                     header("Location: ../register.php?register=sucess");
-                    // header("Location: ../index.php");
                     exit();
                 }
             }

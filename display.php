@@ -60,7 +60,7 @@
                                     echo 'Done';
                                 }
                             ?></th>
-                            <th><?php echo $row['taskName']." (Date:".$row['dueDate'].")";?></th>
+                            <th><?php echo $row['taskName']." <div>(Date:".$row['dueDate'].")</div>";?></th>
                             <th><button type="submit" name="display-edit" class="display-table-button" value="<?php echo $row['idTask']?>">Edit</button></th>
                             <th><button type="submit" name="display-del" class="display-table-button" value="<?php echo $row['idTask']?>">Delete</button></th>
                         </form>

@@ -36,7 +36,7 @@
                 echo '
                         <input class="input-field" type="text" name="username" placeholder="Username">
                         <input class="input-field" type="password" name="password" placeholder="Password">
-                        <br><br><br><br>
+                        <br><br>
                         <button class="button" type="submit" name="login-submit">Login</button>
                         <a class="button" href="register.php">Register</a>
                     </form>
