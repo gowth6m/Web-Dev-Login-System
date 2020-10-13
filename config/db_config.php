@@ -1,7 +1,7 @@
 <?php 
     $servername = "localhost";
     $dbusername = "root";
-    $dbpassword = "15gpym15";
+    $dbpassword = "";
     $dbname = "cwapp";
 
     $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
