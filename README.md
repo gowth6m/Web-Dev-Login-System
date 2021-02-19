@@ -1,2 +1,3 @@
-# Web-Dev-Login-System
-Coursework for university. A simple login system using php and sql
+# Web Development Login System
+
+Coursework for university. A simple login system using PHP and SQL
